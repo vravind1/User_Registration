@@ -1,0 +1,28 @@
+<h1><center>Democratic Initiatives</center></h1>
+<hr>
+<body>
+
+<h3>User Registration</h3>
+
+<%= form_for :user, :url => users_path do |f| -%>
+<table>
+<tr><td>First Name :</td><td><%= f.text_field :fname %> </td></tr>
+<tr><td>Last Name :</td><td><%= f.text_field :lname %></td></tr>
+<tr><td>Date of Birth :</td><td><%= f.date_field :dob %></td></tr>
+<tr><td>User ID:</td><td><%= f.email_field :email, :placeholder => "Your E-mail ID" %></td></tr>
+<tr><td>Password :</td><td><%= f.password_field :pwd %></td></tr>
+<tr><td></td><td><%= f.submit "Sign Up" %></td></tr>
+<% end -%>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+</body>
