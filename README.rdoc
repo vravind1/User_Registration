@@ -1,28 +1,22 @@
-== README
+README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+WELCOME to DEMOCRATIC INITIATIVES
 
-Things you may want to cover:
+- Democtartic Initiatives is a SAAS Application where a user can login and view/edit posts and polls.
 
-* Ruby version
+- This application is based on Ruby on Rails built in 64 bit Ubuntu Virtual machine.
 
-* System dependencies
+- The VM VDI file is supported by saasbook.info
 
-* Configuration
+- Use this link to get that, http://www.saasbook.info/bookware-vm-instructions
 
-* Database creation
+- To fork this project use 'git clone'
 
-* Database initialization
+- Once you downloaded in your local machine, go to the terminal and issue 'rails server' to start the rails server.
 
-* How to run the test suite
+- Then go to 'http://localhost:3000' in your browser.
 
-* Services (job queues, cache servers, search engines, etc.)
+- Now the user can enter his data to fill the form to register to the website, the data gets stored in the database(SQL lite is used here)
 
-* Deployment instructions
+- User can also enter the website using the other link 'Login as a Guest', where he just can see the posts and polls but restricted not to edit or create one.
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
